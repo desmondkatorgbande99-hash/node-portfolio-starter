@@ -1,0 +1,65 @@
+{
+  "name": "node-portfolio-starter",
+  "version": "1.0.0",
+  "description": "A Node.js portfolio starter template with Express, EJS, and modern development tools",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write \"**/*.{js,json,md,ejs}\"",
+    "format:check": "prettier --check \"**/*.{js,json,md,ejs}\"",
+    "build": "node build.js",
+    "serve": "node server.js",
+    "clean": "rm -rf dist node_modules package-lock.json"
+  },
+  "keywords": [
+    "portfolio",
+    "node",
+    "express",
+    "starter",
+    "template"
+  ],
+  "author": "desmondkatorgbande99-hash",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ejs": "^3.1.9",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "compression": "^1.7.4",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "axios": "^1.6.2",
+    "body-parser": "^1.20.2",
+    "express-validator": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "prettier": "^3.1.0",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "babel-jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/desmondkatorgbande99-hash/node-portfolio-starter"
+  },
+  "bugs": {
+    "url": "https://github.com/desmondkatorgbande99-hash/node-portfolio-starter/issues"
+  },
+  "homepage": "https://github.com/desmondkatorgbande99-hash/node-portfolio-starter#readme"
+}
